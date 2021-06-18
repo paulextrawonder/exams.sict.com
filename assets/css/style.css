@@ -1,0 +1,113 @@
+/* 900px by 1420px ID CARD SIZE */
+
+* {
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+
+html {
+	font-size: 62.5%;
+}
+
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	line-height: 1.7;
+	font-size: 1.6rem;
+	font-weight: 400;
+	color: #0000;
+	background-color: aliceblue;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+}
+
+.container__id {
+	width: 66rem;
+	height: 37rem;
+	background: url(../img/bg.png);
+	background-size: cover;
+	background-position: center center;
+	overflow: hidden;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+
+.chip-box {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.chip {
+	width: 6rem;
+	height: 4.5rem;
+}
+
+.profile-pic {
+	margin-top: 2rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 17rem;
+	height: 17rem;
+	overflow: hidden;
+	border: 2px solid #e41a1a;
+	border-radius: 5px;
+}
+
+.profile {
+	width: 16rem;
+	height: 16rem;
+}
+
+.form-title {
+	color: #e41a1a;
+	font-weight: 900;
+	font-size: 2.5rem;
+}
+
+.form-label {
+	display: flex;
+}
+
+.label {
+	color: #000000;
+	font-weight: 800;
+	padding-right: 3rem;
+}
+
+.input-field {
+	color: #000000;
+	/*border-bottom: 1px solid #000000;*/
+	font-weight: 600;
+}
+
+.button {
+	margin-top: 6rem;
+}
+
+.download:link,
+.download:visited {
+	text-decoration: none;
+	background-color: #b26839;
+	color: #fff;
+	padding: 2rem 3rem;
+	font-weight: 600;
+	transition: all 0.3s ease-in-out;
+}
+
+.download:hover {
+	background-color: #e41a1a;
+	transform: translateY(-3px);
+	box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.download:active {
+	background-color: #e41a1a;
+	transform: translateY(-1px);
+	box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
